@@ -32,7 +32,7 @@ public class DateLimiter implements Limiter {
     private final long limitDayMillis;
 
     public DateLimiter() {
-        this(2);
+        this(7);
     }
 
     public DateLimiter(int limitDay) {
